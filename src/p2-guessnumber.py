@@ -1,7 +1,7 @@
-# This program selectsa number between 1 and
+# This program select a number between 1 and
 # 10 and allows a user (player) to guess what
 # it is
- choice = 7  # The number selected by the computer 
+choice = 7  # The number selected by the computer 
 
 
 # Prompt the user, indicating what is expected 
@@ -12,8 +12,8 @@ playerchoice = int(input()) # convert from string
 
 
 # Print the outcome of the game.
-if choice == playerchoice:  # Is the player's guess
-  print ("You win!)         # correct? Player wins!
-else:                 # Otherwise the computer wins 
-  print ("Sorry' you lose.")
+if choice == playerchoice:
+    print("You win!)
+else:
+    print("Sorry' you lose.")
 
