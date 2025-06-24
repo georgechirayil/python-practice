@@ -8,12 +8,12 @@ choice = 7  # The number selected by the computer
 print ("Please guess a number between 1 and 10: ")
 
 # Read the player's input from the keyboard 
-playerchoice = int(input()) # convert from string
+playerChoice = int(input()) # convert from string
 
 
 # Print the outcome of the game.
-if choice == playerchoice:
-    print("You win!)
+if choice == playerChoice:
+    print("You win!")
 else:
     print("Sorry' you lose.")
 
