@@ -16,4 +16,3 @@ if choice == playerChoice:
     print("You win!")
 else:
     print("Sorry' you lose.")
-
